@@ -223,7 +223,7 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0 {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -240,7 +240,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0 {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -258,12 +258,12 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    /*padding-top: 100px;*/
 }
 
 .mmai1-section{
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: #fff;
     background: url(../img/bombers2.png) no-repeat center center scroll;
     background-color: #404040;
@@ -275,7 +275,7 @@ a:focus {
 
 .mmai2-section{
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: #fff;
     background: url(../img/elements2.jpg) no-repeat center center scroll;
     background-color: #404040;
@@ -287,7 +287,7 @@ a:focus {
 
 .mmai3-section{
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: #fff;
     background: url(../img/zombies.png) no-repeat center center scroll;
     background-color: #404040;
@@ -299,7 +299,7 @@ a:focus {
 
 .mmai4-section{
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: #fff;
     background: url(../img/timetravel.png) no-repeat center center scroll;
     background-color: #404040;
@@ -311,7 +311,7 @@ a:focus {
 
 .mmai5-section{
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: #fff;
     background: url(../img/bloom.png) no-repeat center center scroll;
     background-color: #404040;
@@ -323,7 +323,7 @@ a:focus {
 
 .mmai6-section{
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: #fff;
     background: url(../img/modular.png) no-repeat center center scroll;
     background-color: #404040;
@@ -335,7 +335,7 @@ a:focus {
 
 .mmai7-section{
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: #fff;
     background: url(../img/piracy2.png) no-repeat center center scroll;
     background-color: #404040;
@@ -348,7 +348,7 @@ a:focus {
 
 .mmai8-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: #fff;
     background: url(../img/08Logo-bg.png) no-repeat center center scroll;
     background-color: #000;
@@ -360,7 +360,7 @@ a:focus {
 
 .mmai9-section{
     width: 100%;
-    padding: 50px 0;
+    padding: 150px 0;
     color: #fff;
     background: url(../img/space.png) no-repeat center center scroll;
     background-color: #000;
@@ -372,7 +372,7 @@ a:focus {
 
 .mmai10-section{
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: #fff;
     background: url(../img/galapagos2.png) no-repeat center center scroll;
     background-color: #404040;
@@ -384,7 +384,7 @@ a:focus {
 
 .mmai11-section{
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: #fff;
     background: url(../img/reef.png) no-repeat center center scroll;
     background-color: #404040;
@@ -396,7 +396,7 @@ a:focus {
 
 .mmai12-section{
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: #fff;
     background: url(../img/mars2.png) no-repeat center center scroll;
     background-color: #404040;
@@ -408,7 +408,7 @@ a:focus {
 
 .mmai13-section{
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: #fff;
     background: url(../img/droids.png) no-repeat center center scroll;
     background-color: #404040;
@@ -420,7 +420,7 @@ a:focus {
 
 .mmai14-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: #fff;
     background: url(../img/plants2.png) no-repeat center center scroll;
     background-color: #000;
@@ -432,7 +432,7 @@ a:focus {
 
 .mmai15-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: #fff;
     background: url(../img/pharaoh2.png) no-repeat center center scroll;
     background-color: #000;
@@ -441,6 +441,19 @@ a:focus {
     background-size: cover;
     -o-background-size: cover;
 }
+
+  .mmai16-section {
+        width: 100%;
+        padding: 100px 0;
+        color: #fff;
+        /*background: url(../img/pharaoh2.png) no-repeat center center scroll;*/
+        background-color: #000;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+}
+
 #map {
     width: 100%;
     height: 200px;
@@ -449,7 +462,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        /*padding-top: 250px;*/
     }
 
     .download-section {
